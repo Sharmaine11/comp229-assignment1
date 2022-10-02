@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2022-assign1",
+  "name": "comp229-assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -26,12 +26,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sharmaine11/COMP229-F2022-Assign1.git"
+    "url": "git+https://github.com/Sharmaine11/comp229-assignment1.git"
   },
   "author": "Sharmaine Sanchez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sharmaine11/COMP229-F2022-Assign1/issues"
+    "url": "https://github.com/Sharmaine11/comp229-assignment1/issues"
   },
-  "homepage": "https://github.com/Sharmaine11/COMP229-F2022-Assign1#readme"
+  "homepage": "https://github.com/Sharmaine11/comp229-assignment1#readme",
+  "devDependencies": {}
 }

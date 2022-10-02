@@ -1,0 +1,42 @@
+/*File name: Comp229-f2022-assign1
+Student Name: Sharmaine Sanchez
+Student ID: 301206792
+Date: October 2, 2022
+/* custom css goes here */
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
+.nav-link {
+  color: dimgray;
+}
+
+.nav-item>a:hover {
+  color: wheat;
+}
+
+/*code to change background color*/
+.navbar-nav>.active>a {
+  
+  color: white;
+}
+
+.statement {
+  background-color: #dae5ec;
+  border: 15px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+  transition: all .3s ease-in-out;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}

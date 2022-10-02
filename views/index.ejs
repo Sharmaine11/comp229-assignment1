@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header'); %></header>
+
+    <%-include ('partials/main_nav.ejs') %>
+  
+    <!--Main Content-->
+    <main class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to the <%= title %> page</h1>   
+      </div>
+    </main>
+
+    <!--button to redirect to About Me Page-->
+    <div>
+      <h6>This is the button link to the "About Me" page:</h6>
+      <button id="myButton" class="float-left submit-button" >About Me</button>
+    </div>
+
+    <br>
+
+    <!--mission statement-->
+    <div class="statement">
+     
+      <h3 >Mission Statement</h3>
+      <p>It is my goal to learn how to create a Web Application
+        in COMP229.
+      </p>
+
+    </div>
+  
+  <%-include ('partials/bottom_nav.ejs') %>
+  
+   <footer><%- include('./partials/footer'); %></footer>
+   <script src="app.js"></script>
+   
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

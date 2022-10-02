@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header'); %></header>
+
+    <%-include ('partials/main_nav.ejs') %>
+  
+    <!--Main Content-->
+    <main class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to the <%= title %> page</h1>   
+      </div>
+    </main>
+
+    <!--Services Offered-->
+    <div>
+        <h1>General Programming</h1>
+        <img src="http://localhost:3000/Assets/images/service1.jpg" height="500" width="700" alt="service1">
+    </div>
+
+    <br>
+
+    <div>
+      <h1>Web Development</h1>
+      <img src="http://localhost:3000/Assets/images/service2.jpg" height="500" width="700" alt="service1">
+  </div>
+  
+  <br>
+
+  <div>
+    <h1>Mobile Apps</h1>
+    <img src="http://localhost:3000/Assets/images/service3.jpg" height="500" width="700" alt="service1">
+</div>
+
+  <%-include ('partials/bottom_nav.ejs') %>
+  
+   <footer><%- include('./partials/footer'); %></footer>
+  </body>
+</html>

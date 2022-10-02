@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header'); %></header>
+
+    <%-include ('partials/main_nav.ejs') %>
+  
+    <!--Main Content-->
+    <main class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to the <%= title %> page</h1>   
+      </div>
+    </main>
+
+    <div class="statement">
+      <ul>
+        <li>First Name: Sharmaine</li>
+        <li>Last Name: Sanchez</li>
+        <li>Contact Number: (437)328-3981</li>
+        <li>Email Address: ssanch19@my.centennialcollege.ca</li>
+        <li>Message: Thank you for visiting my page</li>
+      </ul>      
+    </div>
+  
+    <!--Send Messsage-->
+    <div>
+      <h2>Send message</h2>
+      <form action="/about">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" ><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" ><br>
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact" ><br>
+        <label for="contact">Email:</label><br>
+        <input type="text" id="email" name="email" ><br>
+        <label for="Message">Message:</label><br>
+        <input id=”Message” rows=”2″ cols=”2″>
+        <input type="submit" value="Submit">
+      </form>
+  <%-include ('partials/bottom_nav.ejs') %>
+  
+   <footer><%- include('./partials/footer'); %></footer>
+  </body>
+</html>

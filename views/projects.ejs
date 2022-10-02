@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header'); %></header>
+
+    <%-include ('partials/main_nav.ejs') %>
+  
+    <!--Main Content-->
+    <main class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to the <%= title %> page</h1>   
+      </div>
+    </main>
+
+    <!--Photos of projects highlighted-->
+    <div>
+        <h1>Home Listing Website</h1>
+        <p>Role: I was the designer of the website, I have learned to complement the details for each page.</p>
+        <img src="http://localhost:3000/Assets/images/project1.png" height="500" width="1000" alt="myPhoto">
+    </div>
+
+    <br>
+
+    <div>
+        <h1>Photo Website</h1>
+        <p>Role: I was the designer of the website. I have learned to create an interactive gallery that can 
+            add photos to favourites and can zoom to the picture.</p>
+        <img src="http://localhost:3000/Assets/images/project2.png" height="500" width="1000" alt="myPhoto">
+    </div>
+  
+    <br>
+    
+    <div>
+        <h1>Online Shop Website</h1>
+        <p>Role: I was the designer of the website, I have learned to create a catalog of products using
+            Microsoft Expression Web 4.</p>
+        <img src="http://localhost:3000/Assets/images/project3.png" height="500" width="1000" alt="myPhoto">
+    </div>
+  <%-include ('partials/bottom_nav.ejs') %>
+  
+    <footer><%- include('./partials/footer'); %></footer>
+  </body>
+</html>

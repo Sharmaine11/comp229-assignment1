@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header'); %></header>
+
+    <%-include ('partials/main_nav.ejs') %>
+  
+    <!--Main Content-->
+    <main class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to the <%= title %> page</h1>   
+      </div>
+    </main>
+
+    <div class="center">
+      <h1>Name: Sharmaine Sanchez</h1>
+      <img src="http://localhost:3000/Assets/images/photo.jpg" height="500px" width="380px" alt="myPhoto">
+    </div>
+      
+    <!--Who I am-->
+    <div class="statement">
+      <h3>Who am I:</h3>
+      <p>I am an enthusiast in learning new technology. I look forward in becoming a 
+        software engineering technician and working in the field of software someday.
+      </p>
+    </div>
+  
+    <!--Link to my resume-->
+<div>
+<a href="http://localhost:3000/Assets/files/resume.pdf">Link to my Resume</a>
+</div>
+  <%-include ('partials/bottom_nav.ejs') %>
+  
+   <footer><%- include('./partials/footer'); %></footer>
+  </body>
+</html>
